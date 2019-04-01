@@ -1,0 +1,23 @@
+.login-page {
+    height:500px;
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+.form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: -100 auto 80px;
+  padding: 40px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+
+}
+.header{
+  width: 1199px;
+   background: #FFFFFF;
+  padding: 0 0 0;
+  margin: auto;
+}

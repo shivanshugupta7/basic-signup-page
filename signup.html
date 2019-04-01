@@ -1,0 +1,88 @@
+<html>
+    <head>
+          <link href="yell.css" rel="stylesheet" style="css/text" />
+        <style>
+       
+input[type=text] {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+input[type=email] {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+input[type=password] {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+input[type=text]:focus {
+    border: 3px solid #555;
+}
+
+
+input[type=submit] {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+input[type=email]:focus {
+    border: 3px solid #555;
+}
+input[type=password]:focus {
+    border: 3px solid #555;
+}
+body{
+    background-image:url("zero.jpg");
+    background-repeat: no-repeat;
+   background-size: cover; 
+}
+</style>
+    </head>
+   
+
+<body background="zero.jpg"> 
+    <div class="header">
+        <h1><center>SIGNUP HERE</center><h1>
+    </div>
+    <div class="login-page">
+  <div class="form">
+    <form method="post" action ="registerServlet">
+<input type ="text"  name="name" placeholder="name" required><br>
+<input type =  "text"  name="age" placeholder="age"><br>
+    <div style="border:3px solid #ccc;height: 40px;width: 220px;margin-left:48px;background-color:"><br>Gender : <input type ="radio"  value="m" name="gender">Male
+    <input type ="radio"  name="gender" value="f">Female<br></div>
+<input type = "email"  name="email" placeholder="email"><br>
+<input type ="password"  name="password" placeholder="password"><br>
+<label>security question</label><br>
+<input type ="text"  name="ans" placeholder="what is your pet name"><br>
+<input type="submit" value="signup"><br>
+</form>
+  </div>
+    </div>
+</body>
+</html>

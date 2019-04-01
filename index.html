@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <link href="yelle.css" rel="stylesheet" style="css/text" />
+        <style> 
+input[type=text] {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+input[type=password] {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+input[type=text]:focus {
+    border: 3px solid #555;
+}
+
+
+input[type=submit] {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+input[type=text]:focus {
+    border: 3px solid #555;
+}
+body{
+    background-image:url("zero.jpg");
+    background-repeat: no-repeat;
+   background-size: cover; 
+}
+
+</style>
+    </head>
+   
+<body > 
+    <div class="header">
+        <b><center><h1>LOGIN HERE FOR EXISTING CUSTOMERS<h1></center><b>
+    </div>
+    <div class="login-page">
+  <div class="form">
+    <form method="post" action ="loginServlet">
+<input type ="text"  name="name" placeholder="User Name" required><br><br>
+<input type =  "password"  name="password" placeholder="password"><br><br>
+<input type="submit" value="Login"><br>
+<p>don't have account?<a style="text-decoration:none;color:black" href="signup.html">Register now</a></p><br>
+<p><a style="text-decoration:none;color:black" href="forgot.html">Forgot Password?</a></p>
+</form>
+  </div>
+    </div>
+</body>
+</html>
